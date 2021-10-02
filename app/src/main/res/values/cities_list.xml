@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_array">
+        <item>ottawa,ca</item>
+        <item>toronto,ca</item>
+        <item>montreal,ca</item>
+        <item>london,ca</item>
+        <item>cincinnati,us</item>
+        <item>oshawa,ca</item>
+        <item>waterloo,ca</item>
+        <item>vancouver,ca</item>
+
+    </string-array>
+</resources>

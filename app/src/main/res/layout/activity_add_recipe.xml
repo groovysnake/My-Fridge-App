@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRecipeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_textedit"
+        android:text="Add Ingredients:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/item_name_textedit"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:layout_toStartOf="@id/quantity_text_edit"
+        android:ems="10"
+        android:hint="@string/item_name_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/quantity_text_edit"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="false"
+        android:layout_toStartOf="@id/spinner"
+        android:ems="10"
+        android:hint="@string/quantity_hint"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_toStartOf="@id/send_button"
+        android:layout_below="@+id/textView"
+        />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_below="@+id/textView"
+        android:text="@string/add_inv_button" />
+
+    <EditText
+        android:id="@+id/desc_edit"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_below="@+id/item_name_textedit"
+        android:layout_marginTop="-3dp"
+        android:ems="10"
+        android:hint="@string/recipe_description"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/add_recipe_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc_edit"
+        android:text="Add Recipe" />
+
+    <EditText
+        android:id="@+id/name_textedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/recipe_name"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>

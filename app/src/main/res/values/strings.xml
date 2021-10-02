@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Fridge</string>
+    <string name="fridge_button">My Fridge</string>
+    <string name="my_recipes_button">My Recipes</string>
+    <string name="add_inv_button">Add</string>
+    <string name="quantity_hint">Qty.</string>
+    <string name="item_name_hint">Item name</string>
+    <string name="weather_button">Weather</string>
+    <string name="min_temp">Min Temp: </string>
+    <string name="cur_temp">Current Temp: </string>
+    <string name="max_temp">Max Temp: </string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_description">Recipe Instructions/Description</string>
+    <string name="add_new_recipe">Add a New Recipe</string>
+    <string name="about_word">About</string>
+    <string name="about_desc">Created by Marco Valdez. Version 1.0, 2019</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="instructions_dialog">Went shopping? Add items to your Fridge!\n\n
+                        Want to make something? Check your Recipes!\n\n
+                        Have a recipe you\'d like to save? Add a new Recipe!\n\n
+                        Missing something? Check the weather before heading to the grocery store!</string>
+
+
+
+</resources>

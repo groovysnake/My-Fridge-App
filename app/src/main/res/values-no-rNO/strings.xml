@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kjøleskap</string>
+    <string name="fridge_button">Mitt Kjøleskap</string>
+    <string name="my_recipes_button">Mine Oppskrifter</string>
+    <string name="add_inv_button">Legg til</string>
+    <string name="quantity_hint">Kvant.</string>
+    <string name="item_name_hint">Varenavn</string>
+    <string name="weather_button">Weather</string>
+    <string name="min_temp">Min Temp: </string>
+    <string name="cur_temp">Nå:  </string>
+    <string name="max_temp">Max Temp: </string>
+    <string name="recipe_name">Oppskriftsnavn</string>
+    <string name="recipe_description">Instruksjoner/Beskrivelse av Oppskrift</string>
+    <string name="add_new_recipe">Legg til ny Oppskrift</string>
+    <string name="about_word">Om Appen</string>
+    <string name="about_desc">Appen er laget av Marco Valdez. Versjon 1.0, 2019</string>
+    <string name="one">En</string>
+    <string name="two">To</string>
+    <string name="instructions_dialog">Har noe nytt? Legg dem til kjøleskapet!\n\n
+        Vil du lage noe? Sjekk oppskriftene dine!\n\n
+        Har du en oppskrift du vil lagre? Legg den til!\n\n
+        Mangler du noe? Sjekk været før du drar til butikken!</string>
+
+
+
+
+</resources>
